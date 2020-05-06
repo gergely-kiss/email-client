@@ -1,11 +1,9 @@
 package uk.gergely.kiss.emailclient.service;
 
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Setter
-@Getter
+@Data
 @NoArgsConstructor
 public class MessageDTO {
 

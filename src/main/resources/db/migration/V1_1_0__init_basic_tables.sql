@@ -6,9 +6,13 @@ create table app
 );
 create table message
 (
-    id serial not null primary key,
-    subject varchar(255),
+    id integer not null primary key,
+    difficulty varchar(255),
     content text,
     done boolean
 );
-
+create table process
+(
+    id varchar (255) not null primary key ,
+    is_running boolean not null
+);
