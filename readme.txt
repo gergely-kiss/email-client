@@ -20,7 +20,7 @@ if you want to run from the command line:
 java -jar email-client-1.0.0-SNAPSHOT.jar --spring.config.location="file:/home/<location>/application.properties"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!Most define in application.properties to build/run the following properties!
+!Must define in application.properties to build/run the following properties!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 spring.datasource.url=jdbc:postgresql://<your url e.g: localhost>:5432/<database_name>
